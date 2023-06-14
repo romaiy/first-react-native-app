@@ -1,12 +1,12 @@
 import { View, Text } from 'react-native';
 
-const HomePage = () => {
+const OrderPage = () => {
 
     return (
         <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-            <Text>Главная</Text>
+            <Text>Заказы</Text>
         </View>
     );
 };
 
-export default HomePage;
+export default OrderPage;
