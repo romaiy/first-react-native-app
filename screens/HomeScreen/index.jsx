@@ -1,12 +1,12 @@
 import { View, Text } from 'react-native';
 
-const UserPage = () => {
+const HomeScreen = () => {
 
     return (
         <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-            <Text>Личный кабинет</Text>
+            <Text>Главная</Text>
         </View>
     );
 };
 
-export default UserPage;
+export default HomeScreen;
